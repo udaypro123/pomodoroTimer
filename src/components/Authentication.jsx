@@ -37,17 +37,17 @@ const Authentication = () => {
                         <Box css={{
                             display: "flex",
                             alignItems: "center",
-                            justifyContent: "center",
-                            width: "20vw",
-                            borderRadius: "1rem",
+                            justifyContent: "space-around",
+                            width: "15vw",
+                            borderRadius: "3rem",
                             boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
                             height: "4rem",
 
                         }} onClick={signInWithgoole}>
 
 
-                            <Img h="85%" width="15%" src="https://play-lh.googleusercontent.com/aFWiT2lTa9CYBpyPjfgfNHd0r5puwKRGj2rHpdPTNrz2N9LXgN_MbLjePd1OTc0E8Rl1=w240-h480-rw" />
-                            <Text>Sign in with Google </Text>
+                            <Img h="85%" borderRadius="3rem" width="25%" src="https://play-lh.googleusercontent.com/aFWiT2lTa9CYBpyPjfgfNHd0r5puwKRGj2rHpdPTNrz2N9LXgN_MbLjePd1OTc0E8Rl1=w240-h480-rw" />
+                            <Text fontSize="md">Sign in with Google </Text>
                         </Box>
                     </VStack>
                 </Flex>
